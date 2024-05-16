@@ -2,33 +2,33 @@
 
 
 
-If you want to install Windows 10 22H2 and not Windows 11 or later versions and using an Asus AdolBook ADOL14ZA
-you might encounter some *missing drivers issue* in device manager
+<br>If you want to install Windows 10 22H2 and not Windows 11 or later versions and using an Asus AdolBook ADOL14ZA
+<br>you might encounter some *missing drivers issue* in device manager
 
-to fix that:
+<br>to fix that:
 
-go to - https://www.asus.com/us/supportonly/adol14za/helpdesk_download/ - and download the drivers from there
+<br>go to - https://www.asus.com/us/supportonly/adol14za/helpdesk_download/ - and download the drivers from there
 
-Then you'll still need some drivers for the unrecognized devices:
+<br>Then you'll still need some drivers for the unrecognized devices:
 
-go to: 
+<br>go to: 
 
-press "Windows key"/"Super key" => type "device manager"
-=> enter device manager => go to the section of devices with exclamation point above theme
-=> double click on the device
-=> go to "Driver"
-=> click one "update driver"
-=> go to the folder
-=> go to the designated driver position according to the following list => click "Next"
-=> go to the next driver and do the same thing
-=> when finishing exit device manager and restart your pc if needed *probably not needed*
+<br>press "Windows key"/"Super key" => type "device manager"
+<br>=> enter device manager => go to the section of devices with exclamation point above theme
+<br>=> double click on the device
+<br>=> go to "Driver"
+<br>=> click one "update driver"
+<br>=> go to the folder
+<br>=> go to the designated driver position according to the following list <br>=> click "Next"
+<br>=> go to the next driver and do the same thing
+<br>=> when finishing exit device manager and restart your pc if needed *probably not needed*
+<br><br><br>
+<br>========== THE SPECIFIED ORDER ==========
 
-========== THE SPECIFIED ORDER ==========
 
 
-
-Base System Device == the same name as in device manager
-PCI Device 1 == the first device right under Base System Device
-PCI Device 2 == the device under PCI Device 1 in placement
-PCI Device 3 == the device under PCI Device 2 in placement
-Unknown Device == the device labeled "Unknown Device" right under the "last PCI Device"
+<br>Base System Device == the same name as in device manager
+<br>PCI Device 1 == the first device right under Base System Device
+<br>PCI Device 2 == the device under PCI Device 1 in placement
+<br>PCI Device 3 == the device under PCI Device 2 in placement
+<br>Unknown Device == the device labeled "Unknown Device" right under the "last PCI Device"
